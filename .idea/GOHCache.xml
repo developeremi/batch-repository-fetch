@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Batch">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/batch/batch.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ByChannel">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/batch/byChannel.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Campaign">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/campaign.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="queue">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/batch/byChannel.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="queueResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/batch/byChannel.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/batch/batch.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709111977855" />
+              <option name="schema">
+                <list>
+                  <option value="Batch" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/batch/batchInterface.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709111977792" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/batch/byChannel.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709127869231" />
+              <option name="schema">
+                <list>
+                  <option value="ByChannel" />
+                  <option value="queueResponse" />
+                  <option value="queue" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/database/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709380730122" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709552609053" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/campaign.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709124435807" />
+              <option name="schema">
+                <list>
+                  <option value="Campaign" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="batch" value="Batch" />
+        <entry key="by_channel" value="ByChannel" />
+        <entry key="campaign" value="Campaign" />
+        <entry key="queue" value="queue" />
+        <entry key="queue_response" value="queueResponse" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1709552568898" />
+  </component>
+</project>

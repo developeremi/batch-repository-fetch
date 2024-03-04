@@ -1,0 +1,21 @@
+version: '3.8'
+
+
+
+services:
+  go_batch_sql:
+    container_name: go_batch_sql
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8502:8080"
+    volumes:
+      - ./:/go-app
+    networks:
+      - local-network
+      - mlm-network
+
+networks:
+  local-network:
+    external: true
